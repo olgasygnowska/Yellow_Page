@@ -1,0 +1,17 @@
+{
+  "name": "yellow-page",
+  "version": "1.0.0",
+  "description": "Font nagłówków to Roboto Condensed z Google Fonts\r Font tekstów to Nunito Sans z Google Fonts",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}
