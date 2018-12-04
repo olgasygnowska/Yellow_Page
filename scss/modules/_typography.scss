@@ -1,1 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,900|Roboto+Condensed:300,400,700&subset=latin-ext');
+
+$fontRoboto:'Roboto Condensed', sans-serif;
+$fontNunito:'Nunito Sans', sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $fontRoboto;
+}
+
+p {
+    font-family: $fontNunito;
+}

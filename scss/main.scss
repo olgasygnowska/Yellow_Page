@@ -1,7 +1,13 @@
 @import 'partials/reset';
 @import 'modules/typography';
 @import 'modules/mixins';
+@import 'modules/colors';
+@import 'partials/header';
 
 * {
     box-sizing: border-box;
+}
+
+body {
+    background-color: $bgColor;
 }
