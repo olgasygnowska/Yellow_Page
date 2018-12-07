@@ -1,48 +1,74 @@
 .courses {
-    padding: 5vh 2vw;
-    position: absolute;
-    display: block;
-    margin: 0 auto;
+    padding: 50vw 8vh;
 
     .container {
+        position: relative;
         margin: 0 auto;
 
         .courses-main-text {
             font-family: $fontNunito;
-            font-size: 0.3em;
+            font-size: 0.8em;
             text-align: left;
             position: relative;
             display: block;
         }
         .courses-main-title {
             font-family: $fontRoboto;
+            font-size: 3em;
+            font-weight: 600;
+            text-transform: uppercase;
             text-align: left;
             position: relative;
             display: block;
+
+            span {
+                color: white;
+            }
         }
         .courses-main-title-decor {
-            width: 4vw;
+            width: 7vw;
             height: 1vw;
             border-bottom: 2px solid black;
+            position: relative;
             display: block;
         }
+    }
 
     .row {
         .col-1-3 {
+        
+            display: inline-grid;
+            margin: 0 auto;
+
             .main-article {
-                position: relative;
-                display: inline-block;
+                width: 33.333%;
+                padding: 10px;
                 
                 .main-article-img {
-                    width: 33.333%;
-                    height: auto;
+                    height: 200px;
                 }
                 .main-article-bar {
-                    .main-article-title {}
-                    .main-article-btn {}
+                    position: absolute;
+                    padding: 10px;
+
+                    .main-article-title {
+                        font-size: 15px;
+                        position: relative;
+                        font-weight:600;
+                        padding: 10px;
+                    }
+
+                    .main-article-text {
+                        font-size: 10px;
+                        position: relative;
+                        padding: 5px;
+                    }
+
+                    .main-article-btn {
+                        padding: 5vh;
+                    }
                 }
             }
         }
     }
-}
 }
